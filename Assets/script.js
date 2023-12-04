@@ -54,6 +54,7 @@ $.each(hoursArray, function(i, hours) {
 //Save text in local storage that is entered into timeblock
 function saveItem(event) {
     event.preventDefault();
+    alert("Note Saved to Local Storage!")
 
     var btnClicked = $(event.target);
     var btnIndex = 0;
