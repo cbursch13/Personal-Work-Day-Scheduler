@@ -4,7 +4,7 @@
 For this homework assignment, I created my own work day scheduler where you can enter notes/tasks into each of the timeblocks. It also will show you which hours have past, which one you are currently in and which ones are in the future by adding color styling. It also allows you to save to local storage so you can use at a later date.
 
 ## Usage
-![Screenshot](assets/Images/WorkDayScheduler.png)
+![Screenshot](./Assets/Images/WorkDayScheduler.png)
 
 ## Links
 https://cbursch13.github.io/Personal-Work-Day-Scheduler/
