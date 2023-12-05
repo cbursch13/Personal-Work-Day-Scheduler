@@ -23,7 +23,7 @@ $.each(hoursArray, function(i, hours) {
 //Converts each hour to 24 hour time with AM/PM
     var blocksTime = dayjs(hours, "h A");
 //Gets description for timeblock from local storage
-    var blockDescription = JSON.parse(localStorage.getItem("blockDescription")) || [];
+    var blockDescription = JSON.parse(localStorage.getItem("blockDescription"));
 //Adds styling to timeblock
     var desc = $("<input>");
     desc.addClass("col-8 col-md-10 description");
@@ -69,7 +69,7 @@ function saveItem(event) {
       btnIndex = btnClicked.attr("data-index");
     }
 //Get description from local storage
-    var blockDescription = JSON.parse(localStorage.getItem("blockDescription")) || [];
+    var blockDescription = JSON.parse(localStorage.getItem("blockDescription"));
 
 //Send descriptions for all timeblocks to local storage
     blockDescription[btnIndex] = $("desc" + btnIndex).val();
